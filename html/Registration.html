@@ -1,0 +1,60 @@
+<!doctype html>
+	<<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Registration form</title>
+		<style>
+		body{
+		background-color:gray;
+		}
+		h1{
+		text-align:center;
+		}
+		h1{
+		background-color:yellow;
+		}
+		
+		</style>
+	</head>
+	<body>
+	
+       <h1> Registration form </h1>
+	<form  style="text-align:center" action="action.php" method:"post">
+	<div style="text-align:center">
+		<label>enter username: </label> 
+    <input  type="text" name="username" placeholder="enter the username">
+	</div>
+	<div style="text-align:center">
+<label>enter password:</label>
+<input type="text" name="password" placeholder="enter the password"> </div>
+<div>
+<label>enter email:</label> 
+<input type="text" name="email" placeholder="enter the mailid"></div>
+<p > select your favourite color<br>
+<input type="radio" name="color" value="red" > red<br>
+<input type="radio" name="color" value="green">green <br>
+<input type="radio" name="color" value="yellow">yellow<br></p>
+		<p style="text-align:center"> select your favourite game<br>
+		<input type="checkbox" name="game" value="shuttle"> shuttle<br>
+		<input type="checkbox" name="game" value="tabletennis">tabletennis<br>
+		<input type="checkbox" name="game" value="hockey"> hockey<br>
+		<input type="checkbox" name="game" value="kabadi">kabadi<br></p>
+        <input type="date" name="startdate">date of birth <br>
+		<input type="button" value="clickme" onclick="alert('Youre learning html')"><br>
+		<label>Select file to upload</label>
+		<input type="file" value="new file"><br>
+		<img src="images/krisheeth.jpg" alt="boy.image" height="50" width="50"> 
+		<input type="submit" value="login">
+		<input type="reset" value="reset"><br>
+	<div>
+		<textarea rows="3" cols="20">
+		</textarea>
+		</div>
+		<br>
+		<br>
+		<input type="submit" value="submit">
+		
+	</form>
+	</body>
+	</html>
