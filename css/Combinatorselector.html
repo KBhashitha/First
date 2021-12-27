@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* div
+        {
+            background:yellow;
+        }*/
+       /* div >p{
+            background-color: aqua;
+        }*/
+        h1 +p{
+            color:red;
+        }
+    p ~ h2{
+        font-style: italic;
+        color:yellow;
+    }
+    </style>
+</head>
+<body>
+    <!-- descendant selector-->
+    <div>
+        <h1>hiii</h1>
+        <h2>helloo</h2>
+        <h3>welcomee</h3>
+    </div>
+    <h4>hiiii</h4>
+    <!--child selector-->
+    <div> 
+        <p>hii</p>
+        <p>welcome</p>
+        <div>hiiiii</div>
+        <p>bannu</p>
+    </div>
+<p>heloo</p>
+<!-- Adjacent sibling selector-->
+<h1>
+    <p>chinku</p>
+    <p>bannu</p>
+</h1>
+<p>krish</p>
+<!--General sibbling selector-->
+<h4>hii</h4>
+<p> 
+    <h2>hiiii</h2>
+    <h2>heloo</h2>
+    <article>hii</article>
+</p>
+
+<h2>hui</h2>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.none{
+	border-style:none;
+	
+}
+.dotted
+{
+	border-style:dotted;
+}
+.solid
+{
+	border-style:solid;
+}
+.dashed
+{
+	border-style:dashed;
+}
+.groove
+{
+	border-style:groove;
+}
+.ridge
+{
+	border-style:ridge;
+}
+.inset
+{
+	border-style:inset;
+}
+.outset
+{
+	border-style:outset;
+}
+.hidden
+{
+	border-style:hidden;
+}
+
+

@@ -1,0 +1,27 @@
+.container
+{
+    border:3px solid green;
+    display:flex;
+    
+    justify-content:center;
+    align-items: flex-end;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    height:90vh;
+}
+.box
+{
+    flex-basis: 15rem;
+    flex-shrink: 1;
+    /*flex-grow: 1;*/
+    height:200px;
+    width:200px;
+    background-color: yellow;
+    margin:10px;
+    justify-content: center;
+}
+.box-one
+{
+    /*flex-grow:0;*/
+flex-basis:5rem;
+}

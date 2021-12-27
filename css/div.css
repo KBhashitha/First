@@ -1,0 +1,104 @@
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:16px;
+}
+
+.nav{
+		background-color:green;
+	height:40px;
+
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	font-size:0.9rem;
+	color:pink;
+}
+
+
+.home-link
+{
+	width:25%;
+	float:left;
+		text-align:center;
+	height:30px;
+	padding-top:10px;
+	background-color:#f1f170;
+}
+.about-link{
+	width:25%;
+	float:left;
+	padding-top:10px;
+	text-align:center;
+	height:30px;
+	background-color:#f1abb7;
+	
+
+
+}
+.services-link{
+	width:25%;
+	float:left;
+	padding-top:10px;
+	text-align:center;
+	height:30px;
+	background-color:#ef7b7b;
+	
+
+
+}
+.contact-link{
+	width:25%;
+	float:left;
+	padding-top:10px;
+	text-align:center;
+	height:30px;
+	background-color:#9b9bec;
+
+
+}
+/*----- logo section ----*/
+.header-section
+{
+	height:60px;
+	
+	
+}
+
+.logo{
+	width:80%;
+	float:left;
+	padding-top:15px;
+	font-size:24px;
+	color:#34e91e;
+}
+.info {
+	width:20%;
+	float:left;
+	padding-top:15px;
+	color:#34e91e;
+
+}
+/*---- banner section ----*/
+.banner-section{
+	height:700px;
+	background-image:url('images/nature1.jpg');
+	background-position:center;
+	background-size:cover;
+	padding:10px;
+
+}
+h1{
+	text-align:center;
+padding-top:80px;
+color:#33ff00;
+}
+pre{
+	text-align:left;
+	padding-top:150px;
+	color:#e91e63;
+}
+
